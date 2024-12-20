@@ -1,0 +1,97 @@
+{
+  "schemes" : [
+    {
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "pointer" : {
+        "acceleration" : 1,
+        "speed" : 0.2,
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "serialNumber" : "1684375E3338",
+          "productID" : "0xc084",
+          "category" : "mouse",
+          "productName" : "G203 Prodigy Gaming Mouse",
+          "vendorID" : "0x46d"
+        }
+      }
+    },
+    {
+      "pointer" : {
+        "acceleration" : 1,
+        "disableAcceleration" : true
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x46d",
+          "category" : "mouse",
+          "productName" : "USB Receiver",
+          "productID" : "0xc53f"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productID" : "0xc547",
+          "vendorID" : "0x46d",
+          "productName" : "USB Receiver",
+          "category" : "mouse"
+        }
+      },
+      "pointer" : {
+        "speed" : 0.3,
+        "acceleration" : 0
+      },
+      "scrolling" : {
+        "speed" : {
+          "vertical" : 26.92
+        },
+        "acceleration" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "productID" : "0xc094",
+          "vendorID" : "0x46d",
+          "category" : "mouse",
+          "productName" : "PRO X Wireless",
+          "serialNumber" : "A8720ED1"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0,
+        "speed" : 0.3
+      }
+    },
+    {
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        }
+      },
+      "if" : {
+        "device" : {
+          "vendorID" : "0x0",
+          "productID" : "0x0",
+          "productName" : "Apple Internal Keyboard \/ Trackpad",
+          "category" : "trackpad"
+        }
+      }
+    }
+  ],
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.9.5"
+}
